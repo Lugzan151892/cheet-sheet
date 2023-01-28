@@ -10,12 +10,19 @@ import {navLinks} from '../constants/data.js'
 <style lang="css" scoped>
     .nav {
         display: flex;
-        /* height: 200px; */
+        height: 100%;
     }
     .nav__link {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         height: 100%;
+        color: #9E9EA0;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+    .nav__link:hover {
         border-bottom: 1px solid #E1FC28;
+        color: #FEFDFF;
     }
 </style>
